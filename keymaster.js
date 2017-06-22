@@ -291,6 +291,9 @@
   global.key.noConflict = noConflict;
   global.key.unbind = unbindKey;
 
+  global.key.dispatch = dispatch;
+  global.key.clearModifier = clearModifier;
+
   if(typeof module !== 'undefined') module.exports = assignKey;
 
 })(this);
